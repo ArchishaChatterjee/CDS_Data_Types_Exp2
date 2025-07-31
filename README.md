@@ -1,33 +1,46 @@
-# EXPERIMENT 2: C++ Program Structure and Data Types
+# EXPERIMENT 2: C++ Data Types
 
 ## Aim
-- To study and implement the basic structure of a C++ program.
-- To understand and use different data types available in C++.
+- To study and implement the structure of a basic C++ program.
+- To determine the size (in bytes) of different built-in data types in C++.
 
 ## Software
 - Programiz Online Compiler or Visual Studio (VS)
 
 ## Theory
 
-### C++ Program Structure
-A basic C++ program follows a specific structure that includes headers, the `main()` function, and statements within curly braces. Understanding this structure is essential for writing and organizing any program in C++.
-
 ### Data Types in C++
-Data types define the type of data a variable can hold. C++ provides several built-in data types, including:
-- `int` for integers
-- `float` and `double` for floating-point numbers
-- `char` for characters
-- `bool` for boolean values
-- `string` (with `#include<string>`) for text data
+Data types in C++ define the type of data a variable can hold. They help in allocating the appropriate amount of memory and defining the kind of operations that can be performed on that data.
 
-Each data type serves a specific purpose and helps in managing memory efficiently during program execution.
+Common built-in data types include:
+- `int` — for integers
+- `float` — for floating-point numbers
+- `double` — for double-precision floating-point numbers
+- `char` — for single characters
+- `bool` — for boolean values (true or false)
+
+C++ also supports derived and user-defined data types such as arrays, structures, and classes.
+
+---
+
+## Program: Finding the Size of Various Data Types
+
+### Algorithm
+1. Start  
+2. Declare variables of types: `int`, `float`, `double`, `char`, `bool`  
+3. Use the `sizeof()` operator to get the size of each data type  
+4. Display the results  
+5. End
+
+---
 
 ## Functions
 
-- Understand and apply the standard structure of a C++ program.
-- Declare and initialize variables of different data types.
-- Display values of variables using output statements.
-- Learn about memory usage and limitations of various data types.
+- Use `sizeof()` to determine the memory size (in bytes) occupied by each data type.
+- Understand how different types of data are stored in memory.
+- Recognize how platform and compiler architecture may affect data size.
+
+---
 
 ## Conclusion
-Through this lab, I learned how a C++ program is structured and how to write code using proper syntax. I explored different data types and understood how they are declared, initialized, and used in programs. This experiment helped reinforce the foundational concepts required for developing more complex C++ programs.
+Through this lab, I learned about the various built-in data types in C++ and how to check their sizes using the `sizeof()` operator. This helped me understand how memory is allocated for different types of data and the importance of choosing the appropriate data type for efficient programming.
