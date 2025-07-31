@@ -4,7 +4,7 @@
 - To study and implement the basic structure of a C++ program.
 - To understand and use different data types available in C++.
 
-## Apparatus
+## Software
 - Programiz Online Compiler or Visual Studio (VS)
 
 ## Theory
